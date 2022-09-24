@@ -13,4 +13,17 @@ Integer vs Floating Point
     more memory space needed due to decimals
 
 
-  if you do a mathematical operation between Int and Float, it will be type coerced to Float
+Math
+
+  - if you do a mathematical operation between Int and Float, it will be type coerced to Float
+
+  - python division always returns a Float
+
+  - order of operation (precedence):
+    P = parentheses
+    E = exponents
+    M = multiplication
+    D = division
+    R = remainder/modulo
+    A = addition
+    S = subtraction
