@@ -20,10 +20,20 @@ Math
   - python division always returns a Float
 
   - order of operation (precedence):
-    P = parentheses
-    E = exponents
-    M = multiplication
-    D = division
-    R = remainder/modulo
-    A = addition
-    S = subtraction
+    P = parentheses       ()
+    E = exponentiation    **
+    M = multiplication    *
+    D = division          /
+    R = remainder/modulo  %
+    A = addition          +
+    S = subtraction       -
+
+
+Comments
+
+  using: # (also called Octothorpe, or pound sigb)
+  just for documentation and not regarded as code
+
+  #
+  # this is a comment
+  #
