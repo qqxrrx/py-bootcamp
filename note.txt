@@ -1,0 +1,22 @@
+modern python 3 bootcamp
+- numbers, operators, comments
+- variables
+- boolean and conditional logic
+- loops
+- lists and list comprehension
+- dictionaries
+- tuples and sets
+- functions
+- lambdas and built-in functions
+- debugging and error handling
+- modules
+- http requests
+- oop (object oriented programming)
+- iterators & generators
+- decorators
+- testing
+- files
+- csv
+- webscraping
+- regular expressions
+- python+sql
