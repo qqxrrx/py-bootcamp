@@ -23,7 +23,7 @@ Math
     P = parentheses       ()
     E = exponentiation    **
     M = multiplication    *
-    D = division          /
+    D = division          /  (use // to avoid returning float, perform a "floor" or rounding down )
     R = remainder/modulo  %
     A = addition          +
     S = subtraction       -
