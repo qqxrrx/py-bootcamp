@@ -1,0 +1,16 @@
+--- TOPIC: numbers, operators, comments ---
+
+
+
+Integer vs Floating Point
+
+  Integer (Int)
+    less space needed
+    whole numbers, positive or negative
+
+  Floating Point (Float)
+    decimal numbers
+    more memory space needed due to decimals
+
+
+  if you do a mathematical operation between Int and Float, it will be type coerced to Float
