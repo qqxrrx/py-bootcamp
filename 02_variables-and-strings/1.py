@@ -29,3 +29,17 @@ print("so we have this weird string"
       "and another wierd string")
 print("\"what?\"")
 print('\'okey\'')
+
+
+print("this is the" + " <moment>")
+
+try:
+    print("we are trying to concatinate like JavaScript!" + 42)
+except TypeError as e:
+    print("WARNING: " + str(e))
+
+print("wow that does not work, only applies to two strings " + "42")
+
+str_food = "ice"
+str_food += " cream"
+print(str_food)

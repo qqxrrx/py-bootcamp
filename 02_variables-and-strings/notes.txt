@@ -53,3 +53,9 @@ Strings
     \t = tab
     \", \' = alternate to mixing single and double quotes
     ...
+
+  string concatenation
+    just combining multiple strings together
+    just using "+"
+    you can't concatinate a different data type, only applies to two strings
+    can use "+="
