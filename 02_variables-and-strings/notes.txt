@@ -41,7 +41,15 @@ None value
 
 
 Strings
+
   single and double quotes
     - either single quotes '...' or double quotes "..."
     - "so 'that' was there"
     - 'we found the "thing"'
+
+  escape sequences
+    https://docs.python.org/3/reference/lexical_analysis.html#escape-sequences
+    \n = linefeed
+    \t = tab
+    \", \' = alternate to mixing single and double quotes
+    ...

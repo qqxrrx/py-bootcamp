@@ -22,3 +22,10 @@ print(type(myVariable))
 
 print("so 'that' was there")
 print('we found the "thing"')
+
+
+print("this is\n another line, after a \t tab")
+print("so we have this weird string"
+      "and another wierd string")
+print("\"what?\"")
+print('\'okey\'')
