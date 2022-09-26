@@ -1,0 +1,5 @@
+variables
+  container with a name that stores value in memory
+  should always have a default value during declaration
+  the assigned value decides it's type
+  you can reassign a different value type
