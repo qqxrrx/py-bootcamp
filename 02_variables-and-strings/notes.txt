@@ -1,0 +1,34 @@
+variables
+  - container with a name that stores value in memory
+  - should always have a default value during declaration
+  - the assigned value decides it's type
+  - you can reassign a different value type
+
+  restrictions:
+    - must start with a letter or underscore
+    - can only consist of letters, numbers or underscores
+    - case sensitive
+
+  naming conventions (style guide):
+    - variables should be "snake case" or "camel case"
+    - variables should be lowercase, upper case if constant
+    - upper camel case should be used on classes
+    - dunder (Double UNDERscore)... variables that starts with __, just leave it alone
+
+
+data types
+  bool (boolean: True/False)
+        only two values used in boolean logic
+  int (integer)
+        whole numbers
+  str (string, "")
+        string of characters
+  list (list, [...])
+        ordered sequence of values
+  dict (dictionary, {"":""})
+        unordered collection of key-value pairs
+
+
+dynamic typing
+  - variables are flexible, data type can change (dynamic typing) at any point in the code
+  - type of value can change depending on the currently assigned of value
