@@ -14,3 +14,16 @@ variables
     - variables should be lowercase, upper case if constant
     - upper camel case should be used on classes
     - dunder (Double UNDERscore)... variables that starts with __, just leave it alone
+
+
+data types
+  bool (boolean: True/False)
+        only two values used in boolean logic
+  int (integer)
+        whole numbers
+  str (string, "")
+        string of characters
+  list (list, [...])
+        ordered sequence of values
+  dict (dictionary, {"":""})
+        unordered collection of key-value pairs
