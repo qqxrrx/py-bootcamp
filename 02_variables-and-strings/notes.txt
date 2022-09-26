@@ -27,3 +27,8 @@ data types
         ordered sequence of values
   dict (dictionary, {"":""})
         unordered collection of key-value pairs
+
+
+dynamic typing
+  - variables are flexible, data type can change (dynamic typing) at any point in the code
+  - type of value can change depending on the currently assigned of value
