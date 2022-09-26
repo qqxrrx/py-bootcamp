@@ -38,3 +38,10 @@ None value
   represents the idea of nothingness (null)
   can be the default value of declared variables
   if you want to create a new variable and tell it has no value yet, use None
+
+
+Strings
+  single and double quotes
+    - either single quotes '...' or double quotes "..."
+    - "so 'that' was there"
+    - 'we found the "thing"'
