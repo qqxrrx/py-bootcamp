@@ -32,3 +32,30 @@ data types
 dynamic typing
   - variables are flexible, data type can change (dynamic typing) at any point in the code
   - type of value can change depending on the currently assigned of value
+
+
+None value
+  represents the idea of nothingness (null)
+  can be the default value of declared variables
+  if you want to create a new variable and tell it has no value yet, use None
+
+
+Strings
+
+  single and double quotes
+    - either single quotes '...' or double quotes "..."
+    - "so 'that' was there"
+    - 'we found the "thing"'
+
+  escape sequences
+    https://docs.python.org/3/reference/lexical_analysis.html#escape-sequences
+    \n = linefeed
+    \t = tab
+    \", \' = alternate to mixing single and double quotes
+    ...
+
+  string concatenation
+    just combining multiple strings together
+    just using "+"
+    you can't concatinate a different data type, only applies to two strings
+    can use "+="
