@@ -1,3 +1,8 @@
 Boolean
   - truthiness
   - True/False
+
+
+Conditional Statements
+  forking paths to code based on comparisons
+  if-elif-else
