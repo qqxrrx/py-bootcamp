@@ -6,3 +6,14 @@ Boolean
 Conditional Statements
   forking paths to code based on comparisons
   if-elif-else
+
+
+Truthiness or Falsiness
+  conditional checks resolve to True (truthy) or False (falsy)
+  'is' keyword to check for truthiness or falsiness
+
+  falsy values:
+    empty objects
+    empty strings
+    None
+    0 (zero)
