@@ -59,3 +59,19 @@ Strings
     just using "+"
     you can't concatinate a different data type, only applies to two strings
     can use "+="
+
+  formatting strings
+    python 3.6+, f-strings: f"{variable}"
+    string interpolation: convert value to string version
+
+  indexes
+    each character has a zero-based index in a string
+    backwards with negative index
+
+
+Data Type Conversion
+  int() = does not round up
+  float()
+  str()
+
+  NOTE = do not use these as variables (int/float/str) because it will overwrite the original implementation

@@ -43,3 +43,27 @@ print("wow that does not work, only applies to two strings " + "42")
 str_food = "ice"
 str_food += " cream"
 print(str_food)
+
+
+a = 2022
+print(f"the year today is {a}")
+print(f"{2+2} = 2 + 2")
+
+
+phrase = "peter pipper picked a peck"
+print("testing"[3])
+print(phrase[4])
+# backwards with negative index
+print("abcdfg"[-4])
+
+
+decim = 12.4425251
+print(int(decim))
+
+c_list = [3, 2, 1]
+print(type(c_list))
+print(type(str(c_list)))
+
+print(type(int))
+int = "wow"
+print(type(int))
