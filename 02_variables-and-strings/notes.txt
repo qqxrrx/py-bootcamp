@@ -62,3 +62,7 @@ Strings
 
   formatting strings
     python 3.6+, f-strings: f"{variable}"
+
+  indexes
+    each character has a zero-based index in a string
+    backwards with negative index

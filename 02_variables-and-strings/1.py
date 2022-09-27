@@ -48,3 +48,10 @@ print(str_food)
 a = 2022
 print(f"the year today is {a}")
 print(f"{2+2} = 2 + 2")
+
+
+phrase = "peter pipper picked a peck"
+print("testing"[3])
+print(phrase[4])
+# backwards with negative index
+print("abcdfg"[-4])
