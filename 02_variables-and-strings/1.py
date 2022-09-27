@@ -43,3 +43,8 @@ print("wow that does not work, only applies to two strings " + "42")
 str_food = "ice"
 str_food += " cream"
 print(str_food)
+
+
+a = 2022
+print(f"the year today is {a}")
+print(f"{2+2} = 2 + 2")

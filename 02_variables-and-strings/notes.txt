@@ -59,3 +59,6 @@ Strings
     just using "+"
     you can't concatinate a different data type, only applies to two strings
     can use "+="
+
+  formatting strings
+    python 3.6+, f-strings: f"{variable}"
