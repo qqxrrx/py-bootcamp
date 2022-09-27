@@ -55,3 +55,15 @@ print("testing"[3])
 print(phrase[4])
 # backwards with negative index
 print("abcdfg"[-4])
+
+
+decim = 12.4425251
+print(int(decim))
+
+c_list = [3, 2, 1]
+print(type(c_list))
+print(type(str(c_list)))
+
+print(type(int))
+int = "wow"
+print(type(int))
