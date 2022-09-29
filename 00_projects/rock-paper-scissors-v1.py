@@ -1,3 +1,5 @@
+# -- v1 --
+
 # try to emulate constants in other languages
 class RPS_Answers(object):
     ROCK = "rock"
