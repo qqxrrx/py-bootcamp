@@ -17,3 +17,54 @@ Truthiness or Falsiness
     empty strings
     None
     0 (zero)
+
+
+Comparison Operators
+  testing values to produce a truthy or falsy result
+    a == b
+    a != b
+    a > b
+    a < b
+    a >= b
+    a <= b
+
+
+Logical Operators
+  connect other Comparison Operators together
+
+  (truth table):
+
+  AND
+    a   b   a & b   (a and b)
+    T   T   T
+    T   F   F
+    F   T   F
+    F   F   F
+
+  OR
+    a   b   a | b   (a or b)
+    T   T   T
+    T   F   T
+    F   T   T
+    F   F   F
+
+  NOT
+    negation, reverse boolean value
+
+  python operators:
+    and
+      (a > b) and (c > d)
+    or
+      (a > b) or (c > d)
+    not
+
+
+
+is VS ==
+
+  assignment (assign value to variable)
+    a = 1
+  equality (check value of two variables are the same)
+    a == 1
+  'is' keyword (test if two variables refer to the same object)
+    a is 1
