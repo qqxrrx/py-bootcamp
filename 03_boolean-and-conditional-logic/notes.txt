@@ -27,3 +27,33 @@ Comparison Operators
     a < b
     a >= b
     a <= b
+
+
+Logical Operators
+  connect other Comparison Operators together
+
+  (truth table):
+
+  AND
+    a   b   a & b   (a and b)
+    T   T   T
+    T   F   F
+    F   T   F
+    F   F   F
+
+  OR
+    a   b   a | b   (a or b)
+    T   T   T
+    T   F   T
+    F   T   T
+    F   F   F
+
+  NOT
+    negation, reverse boolean value
+
+  python operators:
+    and
+      (a > b) and (c > d)
+    or
+      (a > b) or (c > d)
+    not
