@@ -17,3 +17,13 @@ Truthiness or Falsiness
     empty strings
     None
     0 (zero)
+
+
+Comparison Operators
+  testing values to produce a truthy or falsy result
+    a == b
+    a != b
+    a > b
+    a < b
+    a >= b
+    a <= b
