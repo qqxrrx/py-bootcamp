@@ -1,0 +1,3 @@
+- allow code execution iteration/repetition
+- extract each single data from a collection (iterable object)
+- for loop, while loop
