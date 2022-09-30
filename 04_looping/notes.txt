@@ -1,3 +1,14 @@
 - allow code execution iteration/repetition
 - extract each single data from a collection (iterable object)
 - for loop, while loop
+
+
+for loops
+
+  for <item> in <iterable_object>:
+
+    <item> = references the current position of iterator within the iterable
+    <iterable_object> = collection of data
+
+  for <item> in range():
+    range(<start>,<iterations>) = easy way to generate numbers
