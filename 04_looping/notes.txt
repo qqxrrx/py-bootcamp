@@ -1,0 +1,22 @@
+- allow code execution iteration/repetition
+- extract each single data from a collection (iterable object)
+- for loop, while loop
+
+
+for loops
+
+  for <item> in <iterable_object>:
+
+    <item> = references the current position of iterator within the iterable
+    <iterable_object> = collection of data
+
+  for <item> in range(a, b):
+    range(<start>,<iterations>) = easy way to generate numbers
+
+  range()
+    - generate immutable sequence of numbers
+
+    range(n) = give integer from 0 to n-1
+    range(a,b) = give integer from a to b-1
+    range(x,y,z) = give integer from x to y-1 but skip depending on z
+    range(i,j,k) = give integerfrom i to j-1 but reverse depending on k
