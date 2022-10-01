@@ -27,3 +27,8 @@ while loops
   while <condition>:
 
     <condition> = execute while boolean expression is truthy
+
+
+controlled exit on loops:
+
+  using keyword 'break'
