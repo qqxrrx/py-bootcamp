@@ -20,3 +20,15 @@ for loops
     range(a,b) = give integer from a to b-1
     range(x,y,z) = give integer from x to y-1 but skip depending on z
     range(i,j,k) = give integerfrom i to j-1 but reverse depending on k
+
+
+while loops
+
+  while <condition>:
+
+    <condition> = execute while boolean expression is truthy
+
+
+controlled exit on loops:
+
+  using keyword 'break'
