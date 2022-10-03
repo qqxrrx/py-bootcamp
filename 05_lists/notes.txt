@@ -3,3 +3,5 @@ Lists
   > also called Arrays in other languages
   > can be ordered/sorted
   > fundamental data structure for organizing collections of items
+  > zero based index, using negative numbers will count backwards
+  > iteratable
