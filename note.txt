@@ -28,3 +28,7 @@ PEP 8:
   > https://pypi.org/project/autopep8/
   > just use autopep8 so it auto styles
   > or on terminal: >>autopep8 --in-place <filename>.py
+
+
+data structures:
+  combination of data types
