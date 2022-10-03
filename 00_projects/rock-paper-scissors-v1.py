@@ -25,7 +25,7 @@ print("SHOOT!")
 # paper > rock
 # rock == rock
 # paper == paper
-# scissors = scissors
+# scissors == scissors
 
 if p1 == i.ROCK and p2 == i.SCISSORS:
     print(f"{p1s} win")

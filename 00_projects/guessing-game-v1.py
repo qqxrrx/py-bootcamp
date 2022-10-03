@@ -1,3 +1,4 @@
+# -- v1 --
 import random
 
 # .randint() is inclusive, based on argument generate random number between 1 and 10

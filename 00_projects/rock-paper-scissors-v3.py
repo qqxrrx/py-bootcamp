@@ -41,7 +41,7 @@ print("SHOOT!")
 # paper > rock
 # rock == rock
 # paper == paper
-# scissors = scissors
+# scissors == scissors
 
 # refactor 1: towards if-elif nesting
 # refactor 2: because computer can only choose in one of 3 moves, then eliminate the last 'elif' check and make it 'else'

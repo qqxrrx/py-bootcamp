@@ -27,7 +27,7 @@ print("SHOOT!")
 # paper > rock
 # rock == rock
 # paper == paper
-# scissors = scissors
+# scissors == scissors
 
 # refactor towards if-elif nesting
 if p1 == p2:  # shortcircuit to prevent evaluating others
