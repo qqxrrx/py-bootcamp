@@ -20,3 +20,11 @@ modern python 3 bootcamp
 - webscraping
 - regular expressions
 - python+sql
+
+
+PEP 8:
+  > python style guide that needs to be followed so that stlying is consistent across different codebases
+  > https://peps.python.org/pep-0008/
+  > https://pypi.org/project/autopep8/
+  > just use autopep8 so it auto styles
+  > or on terminal: >>autopep8 --in-place <filename>.py
