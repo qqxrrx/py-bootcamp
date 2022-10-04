@@ -11,3 +11,7 @@ List Comprehension
   > generate new list from existing list using short code
 
   [<what to do with iterator> for <iterator> in <iterable>]
+
+  [<what to do with iterator respecting the condition> for <iterator> in <iterable> if <condition>]
+
+  [<what to do with iterator with condition> for <iterator> in <iterable>]

@@ -26,3 +26,21 @@ print([bool(val) for val in [0, [], '']])
 nums = [1, 2, 3, 4, 5]
 print(nums)
 print([str(num) for num in nums])
+
+
+print("conditional list comprehension")
+numbers = [1, 2, 3, 4, 5]
+print(f"odds: {[num for num in numbers if num % 2 != 0]}")
+print(f"evens: {[num for num in numbers if num % 2 == 0]}")
+
+
+# more complex example:
+#   if num has no remainder, multiply num by 2
+#   else divide num by 2
+print([num*2 if num % 2 == 0 else num/2 for num in numbers])
+
+
+# combination with "in"
+# .join() list into a string
+with_vowels = "The quick brown fox jumped over the lazy dog"
+print(''.join([char for char in with_vowels if char not in "aeiou"]))
