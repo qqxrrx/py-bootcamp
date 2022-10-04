@@ -32,3 +32,7 @@ PEP 8:
 
 data structures:
   combination of data types
+
+
+List = Array (in javascript)
+Dictionary = Object (in javascript)

@@ -1,0 +1,13 @@
+limitation of list:
+  > can't describe more about data
+  > just a list of data
+
+
+Dictionary
+  > key value pairs
+  > keys used to describe the data
+  > keys are either strings or numbers
+  > values are the actual data value
+
+  just like the list() function that can convert to list,
+  on dictionaries you can use dict() function to convert to dictionary
