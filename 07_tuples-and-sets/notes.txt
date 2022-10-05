@@ -8,3 +8,4 @@ Tuple
   > can use tuple() function
   > use square brackets for data access, only use (...) for creation
   > useful if you want to store values that should not be changed (like english name of months)
+  > has the same index access as lists (slices)
