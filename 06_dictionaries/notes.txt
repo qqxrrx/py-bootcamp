@@ -11,3 +11,10 @@ Dictionary
 
   just like the list() function that can convert to list,
   on dictionaries you can use dict() function to convert to dictionary
+
+
+Dictionary Comprehension
+
+  { <key: value> for <key, value = iterator> in <iterable> }
+
+  { <(condition with key): (condition with value) for <key, value = iterator> in <iterable> }
