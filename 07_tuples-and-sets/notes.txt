@@ -9,3 +9,11 @@ Tuple
   > use square brackets for data access, only use (...) for creation
   > useful if you want to store values that should not be changed (like english name of months)
   > has the same index access as lists (slices)
+
+
+Sets
+  > unordered collection of data with NO duplicates
+  > can't access items in a set by index
+  > declared using {...} only values and NO keys
+  > removes duplicates
+  > cannot store lists or sets
