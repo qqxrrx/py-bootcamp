@@ -1,0 +1,10 @@
+Tuple
+  > ordered collection or grouping of items
+  > like a list BUT using (...)
+  > like a list BUT it is immutable (read-only values)
+  > faster than lists
+  > safe code because values are read-only (immutable)
+  > a valid key in a dictionary (example: tuple of coordinates as key and location as value)
+  > can use tuple() function
+  > use square brackets for data access, only use (...) for creation
+  > useful if you want to store values that should not be changed (like english name of months)
