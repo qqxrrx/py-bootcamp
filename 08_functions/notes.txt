@@ -8,7 +8,14 @@ Functions
   > has a return value, or no return value
   > functions redefined later will overwrite the previously defined function
 
-
   return keyword:
     > exists the function (short circuit)
     > returns the value
+
+  parameter:
+    > the variable inside a function where an argument uses
+    > within the parenthesis inside the function definition
+
+  argument:
+    > the value passed on a function's parameter
+    > passed when using a function
