@@ -19,3 +19,7 @@ Functions
   argument:
     > the value passed on a function's parameter
     > passed when using a function
+
+  mistakes when returning values from function:
+  1. check indentation levels to run code properly
+  2. some 'else' code blocks can be ignored if returning boolean values
