@@ -6,3 +6,8 @@ Functions
   > abstract away code
   > has parameters, or no parameters
   > has a return value, or no return value
+
+
+  return keyword:
+    > exists the function (short circuit)
+    > returns the value
