@@ -40,3 +40,26 @@ Functions
 
     def <func>:
       """ documentation """
+
+
+  *args
+    > gather arguments as a tuple (...)
+
+
+  **kwargs
+    > keyword args, store parameters into a dictionary {k:v}
+
+
+  ordering of parameters:
+
+    def <func>(<named parameter>, <*args>, <default parameter>, <**kwargs>)
+
+
+  tuple unpacking:
+    > called_function(*<argument>)
+    > using asterix before the argument to tuple unpack if parameter as an *arg
+
+
+  dictionary unpacking:
+    > caleed_function(**<argument>)
+    > using double asterix before the argument to dictionary unpack if parameter as a **kwargs
