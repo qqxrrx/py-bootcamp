@@ -48,3 +48,8 @@ Functions
 
   **kwargs
     > keyword args, store parameters into a dictionary {k:v}
+
+
+  ordering of parameters:
+
+    def <func>(<named parameter>, <*args>, <default parameter>, <**kwargs>)
