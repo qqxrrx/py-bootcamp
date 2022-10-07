@@ -40,3 +40,7 @@ Functions
 
     def <func>:
       """ documentation """
+
+
+  *args
+    > gather arguments as a tuple
