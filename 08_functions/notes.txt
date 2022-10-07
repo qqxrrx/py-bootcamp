@@ -43,4 +43,8 @@ Functions
 
 
   *args
-    > gather arguments as a tuple
+    > gather arguments as a tuple (...)
+
+
+  **kwargs
+    > keyword args, store parameters into a dictionary {k:v}
