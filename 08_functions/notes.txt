@@ -58,3 +58,8 @@ Functions
   tuple unpacking:
     > called_function(*<argument>)
     > using asterix before the argument to tuple unpack if parameter as an *arg
+
+
+  dictionary unpacking:
+    > caleed_function(**<argument>)
+    > using double asterix before the argument to dictionary unpack if parameter as a **kwargs
