@@ -33,3 +33,10 @@ Functions
     > global variables outside the function can't be accessed
     > use 'global' keyword if you want to access a global variable
     > variable with similar name from global scope only exist within function scope
+
+
+  function documentation using docstrings """..."""
+    > accessible in <func>.__doc__ dunder method
+
+    def <func>:
+      """ documentation """
