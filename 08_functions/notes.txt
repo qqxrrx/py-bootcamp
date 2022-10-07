@@ -53,3 +53,8 @@ Functions
   ordering of parameters:
 
     def <func>(<named parameter>, <*args>, <default parameter>, <**kwargs>)
+
+
+  tuple unpacking:
+    > called_function(*<argument>)
+    > using asterix before the argument to tuple unpack if parameter as an *arg
