@@ -13,3 +13,6 @@ names = [{'fn': 'A1', 'ln': 'A2'},
 
 fns = list(map(lambda n: n['fn'], names))
 print(fns)
+
+# just use list comprehension for simple use cases
+print([n['fn'] for n in names])
