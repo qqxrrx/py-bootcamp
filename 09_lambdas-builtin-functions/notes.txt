@@ -1,0 +1,3 @@
+lambda
+  > just like anonymous functions of javascript
+  > one line, mostly used on arguments
