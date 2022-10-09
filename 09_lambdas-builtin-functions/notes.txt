@@ -9,3 +9,12 @@ filter()
   > only return items to new list where the compared item from old list evaluates to true
 
 ~ most of the time, map() and filter() is not needed if it's possible with list comprehension
+
+
+Built In Functions:
+
+  .all()
+    > return True if ALL statements of iterable are truthy
+
+  .any()
+    > return True if ANY statements of iterable are truthy
