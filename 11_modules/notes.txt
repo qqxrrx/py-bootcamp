@@ -1,12 +1,22 @@
 Modules
+
   > keep python files small
   > code reuse across code
+
 
   Builtin Modules
     > https://docs.python.org/3/py-modindex.html
 
     'from' keyword lets you import parts of a module
 
+
   Custom Modules
     > can import own code
     > need name of python file
+
+
+  External Modules
+    > https://pypi.org/
+    > use pip
+
+      >> pip install termcolor
