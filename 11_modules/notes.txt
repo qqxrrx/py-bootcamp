@@ -1,0 +1,8 @@
+Modules
+  > keep python files small
+  > code reuse across code
+
+  Builtin Modules
+    > https://docs.python.org/3/py-modindex.html
+
+    'from' keyword lets you import parts of a module
