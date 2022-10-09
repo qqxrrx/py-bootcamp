@@ -42,3 +42,15 @@ Built In Functions:
   .len()
     > return length of items in an object
     > calls the __len__ dunder method of that object
+
+  .abs()
+    > positive value of any number
+
+  .sum()
+    > total value of items in an iterable
+    > with optional start parameter as starting value
+
+  .round()
+    > return a rounded version
+    > need to specify precision for number of decimal point
+    > it will round, does not floor it
