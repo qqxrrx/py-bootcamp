@@ -54,3 +54,8 @@ Built In Functions:
     > return a rounded version
     > need to specify precision for number of decimal point
     > it will round, does not floor it
+
+  .zip()
+    > make an iterator that aggregates elements from each of the iterables
+    > combines two lists
+    > shortest list limits the combination
