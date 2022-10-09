@@ -11,6 +11,13 @@ filter()
 ~ most of the time, map() and filter() is not needed if it's possible with list comprehension
 
 
+Generators
+  > like list comprehension but uses () instead of []
+  > forward only, once you read the item, you will not see it again
+  > more lightweight than lists (need the least memory)
+  > if only iterating only once, use generators
+
+
 Built In Functions:
 
   .all()
