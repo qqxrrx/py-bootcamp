@@ -34,3 +34,7 @@ Built In Functions:
 
   .min()
     > return lowest value in a list
+
+  .reversed()
+    > return a reversed iterator object
+    > does NOT sort reverse the value, just reverses elements
