@@ -25,3 +25,6 @@ Built In Functions:
 
   .any()
     > return True if ANY statements of iterable are truthy
+
+  .sorted()
+    > returns a new sorted list from items in the iteratable
