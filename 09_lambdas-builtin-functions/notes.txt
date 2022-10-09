@@ -28,3 +28,9 @@ Built In Functions:
 
   .sorted()
     > returns a new sorted list from items in the iteratable
+
+  .max()
+    > return highest value in a list
+
+  .min()
+    > return lowest value in a list
