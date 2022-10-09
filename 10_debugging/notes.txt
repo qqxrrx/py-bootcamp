@@ -1,0 +1,22 @@
+common python errors:
+
+  SyntaxError
+    > just wrong syntax that can't be parsed
+
+  NameError
+    > when variable not defined
+
+  TypeError
+    > mismatch of data types in an operation
+
+  IndexError
+    > access an element with an invalid index on a list
+
+  ValueError
+    > when a builtin operation or function receives an argument with correct type but inappropriate value
+
+  KeyError
+    > occurs in dictionaries when you use an invalid key
+
+  AttributeError
+    > when variable has no attribute and it was used in code
