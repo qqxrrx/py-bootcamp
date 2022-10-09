@@ -2,14 +2,6 @@ lambda
   > just like anonymous functions of javascript
   > one line, mostly used on arguments
 
-map()
-  > process each item on the list and create a new list from it
-
-filter()
-  > only return items to new list where the compared item from old list evaluates to true
-
-~ most of the time, map() and filter() is not needed if it's possible with list comprehension
-
 
 Generators
   > like list comprehension but uses () instead of []
@@ -19,6 +11,14 @@ Generators
 
 
 Built In Functions:
+
+  .map()
+    > process each item on the list and create a new list from it
+
+  .filter()
+    > only return items to new list where the compared item from old list evaluates to true
+
+  ~ most of the time, map() and filter() is not needed if it's possible with list comprehension
 
   .all()
     > return True if ALL statements of iterable are truthy
@@ -38,3 +38,7 @@ Built In Functions:
   .reversed()
     > return a reversed iterator object
     > does NOT sort reverse the value, just reverses elements
+
+  .len()
+    > return length of items in an object
+    > calls the __len__ dunder method of that object
