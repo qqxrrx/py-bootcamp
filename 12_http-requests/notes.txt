@@ -13,3 +13,20 @@ HTTP Headers
   Response Headers:
     > access-control-allow-origin (domains that can make requests)
     > allowed (HTTP verbs that are allowed in request)
+    > status codes (200, 300, 400, etc.)
+
+HTTP Verbs
+  > GET = retrieve data
+        = data passed in query string
+        = should have no "side-effects" (no database commit operation, only retrieval)
+        = can be cached
+        = can be bookmarked
+  > POST = write data
+         = data passed in request body
+         = have "side-effects" (altering in database)
+         = cannot be cached
+         = cannot be bookmarked
+
+APIs
+  > web endpoints where you send requests and receive responses containing data
+  > commonly returned as JSON format
