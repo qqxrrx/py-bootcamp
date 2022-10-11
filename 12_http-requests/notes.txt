@@ -30,3 +30,5 @@ HTTP Verbs
 APIs
   > web endpoints where you send requests and receive responses containing data
   > commonly returned as JSON format
+
+>> pip install requests
