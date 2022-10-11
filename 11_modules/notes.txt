@@ -1,0 +1,31 @@
+Modules
+
+  > keep python files small
+  > code reuse across code
+
+
+  Builtin Modules
+    > https://docs.python.org/3/py-modindex.html
+
+    'from' keyword lets you import parts of a module
+
+
+  Custom Modules
+    > can import own code
+    > need name of python file
+
+
+  External Modules
+    > https://pypi.org/
+    > use pip
+
+      >> pip install termcolor
+
+
+__name__
+  > every python file has this
+  > the current __name__ of the one that executes the code is always called "__main__"
+  > that's why we use this line to ensure that the file is directly run and not called by another file from an import:
+
+      if __name__ == "__main__":
+          # run code

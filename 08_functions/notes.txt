@@ -1,0 +1,65 @@
+Functions
+
+  > a process for executing a task
+  > reuseable code (so that code stays DRY; don't repeat yourself)
+  > prevent code duplication
+  > abstract away code
+  > has parameters, or no parameters
+  > has a return value, or no return value
+  > functions redefined later will overwrite the previously defined function
+
+
+  return keyword:
+    > exists the function (short circuit)
+    > returns the value
+
+  parameter:
+    > the variable inside a function where an argument uses
+    > within the parenthesis inside the function definition
+
+
+  argument:
+    > the value passed on a function's parameter
+    > passed when using a function
+
+
+  mistakes when returning values from function:
+  1. check indentation levels to run code properly
+  2. some 'else' code blocks can be ignored if returning boolean values
+
+
+  function level scope:
+    > only variables accessible within the functions
+    > global variables outside the function can't be accessed
+    > use 'global' keyword if you want to access a global variable
+    > variable with similar name from global scope only exist within function scope
+
+
+  function documentation using docstrings """..."""
+    > accessible in <func>.__doc__ dunder method
+
+    def <func>:
+      """ documentation """
+
+
+  *args
+    > gather arguments as a tuple (...)
+
+
+  **kwargs
+    > keyword args, store parameters into a dictionary {k:v}
+
+
+  ordering of parameters:
+
+    def <func>(<named parameter>, <*args>, <default parameter>, <**kwargs>)
+
+
+  tuple unpacking:
+    > called_function(*<argument>)
+    > using asterix before the argument to tuple unpack if parameter as an *arg
+
+
+  dictionary unpacking:
+    > caleed_function(**<argument>)
+    > using double asterix before the argument to dictionary unpack if parameter as a **kwargs

@@ -1,0 +1,61 @@
+lambda
+  > just like anonymous functions of javascript
+  > one line, mostly used on arguments
+
+
+Generators
+  > like list comprehension but uses () instead of []
+  > forward only, once you read the item, you will not see it again
+  > more lightweight than lists (need the least memory)
+  > if only iterating only once, use generators
+
+
+Built In Functions:
+
+  .map()
+    > process each item on the list and create a new list from it
+
+  .filter()
+    > only return items to new list where the compared item from old list evaluates to true
+
+  ~ most of the time, map() and filter() is not needed if it's possible with list comprehension
+
+  .all()
+    > return True if ALL statements of iterable are truthy
+
+  .any()
+    > return True if ANY statements of iterable are truthy
+
+  .sorted()
+    > returns a new sorted list from items in the iteratable
+
+  .max()
+    > return highest value in a list
+
+  .min()
+    > return lowest value in a list
+
+  .reversed()
+    > return a reversed iterator object
+    > does NOT sort reverse the value, just reverses elements
+
+  .len()
+    > return length of items in an object
+    > calls the __len__ dunder method of that object
+
+  .abs()
+    > positive value of any number
+
+  .sum()
+    > total value of items in an iterable
+    > with optional start parameter as starting value
+
+  .round()
+    > return a rounded version
+    > need to specify precision for number of decimal point
+    > it will round, does not floor it
+
+  .zip()
+    > make an iterator that aggregates elements from each of the iterables
+    > combines two lists
+    > shortest list limits the combination

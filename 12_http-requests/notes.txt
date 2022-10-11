@@ -1,0 +1,34 @@
+DNS servers
+  > directory that converts domain names to ip addresses
+  > points request to the destination ip address
+
+HTTP Headers
+  > metadata about the requests or response
+
+  Request Headers:
+    > accept (acceptable content-types for response: html, json, xml)
+    > cache-control (caching behavior)
+    > user-agent (OS & browser information)
+
+  Response Headers:
+    > access-control-allow-origin (domains that can make requests)
+    > allowed (HTTP verbs that are allowed in request)
+    > status codes (200, 300, 400, etc.)
+
+HTTP Verbs
+  > GET = retrieve data
+        = data passed in query string
+        = should have no "side-effects" (no database commit operation, only retrieval)
+        = can be cached
+        = can be bookmarked
+  > POST = write data
+         = data passed in request body
+         = have "side-effects" (altering in database)
+         = cannot be cached
+         = cannot be bookmarked
+
+APIs
+  > web endpoints where you send requests and receive responses containing data
+  > commonly returned as JSON format
+
+>> pip install requests
