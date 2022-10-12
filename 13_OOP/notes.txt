@@ -1,0 +1,10 @@
+Object Oriented Programming
+  > representation of things in world
+  > write class to create an object
+
+  Classes
+    > blueprint of objects
+    > can contain functions or attributes
+
+  Instance
+    > objects that are constructed from a class blueprint
