@@ -17,5 +17,4 @@ Object Oriented Programming
 
   Abstraction
     > selective access/exposure of properties or functions inside a class
-    > private properties or private functions exclusive within a class and can't be used outside
     > python does not support "private", convention is using _ (underscore) before a variable
