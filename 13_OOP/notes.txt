@@ -18,3 +18,11 @@ Object Oriented Programming
   Abstraction
     > selective access/exposure of properties or functions inside a class
     > python does not support "private", convention is using _ (underscore) before a variable
+
+
+__init__ = classes in python has this special method that is called upon object creation
+self = refers to instance of current class, does not receive arguments
+
+
+in python to instantiate a class (other language uses a "new" keyword but python does not):
+  obj = Class()
