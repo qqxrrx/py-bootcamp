@@ -47,8 +47,7 @@ class Deck:
 
         # random.sample() = pick random non-repeating item from unique list depending on value of k
         dealt = rd.sample(self.cards, k=num)
-        for card in dealt:
-            self.cards.remove(card)
+        [self.cards.remove(card) for card in dealt]
         return dealt
 
     def shuffle(self):
