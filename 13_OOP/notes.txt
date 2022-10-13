@@ -48,6 +48,7 @@ class instance attributes
 
     self.property
 
+
 class attributes(exists across ALL instances)
   > defined without "self."
   > access via ClassName.Attribute
