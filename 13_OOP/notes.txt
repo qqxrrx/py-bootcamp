@@ -38,3 +38,18 @@ Variable Naming Conventions:
   __(variable) = accessed as _(classname)__(variable), called "name mangling"
                = make this method/attribute particular to this class
                = mostly used for inheritance to avoid naming conflicts
+
+
+class instance methods
+
+    def function(self): ...
+
+class instance attributes
+
+    self.property
+
+class attributes(exists across ALL instances)
+  > defined without "self."
+  > access via ClassName.Attribute
+  > any instance can access the value of this
+  > value updated across all instances
