@@ -40,11 +40,11 @@ Variable Naming Conventions:
                = mostly used for inheritance to avoid naming conflicts
 
 
-class instance methods
+instance methods
 
     def function(self): ...
 
-class instance attributes
+instance attributes
 
     self.property
 
@@ -53,4 +53,8 @@ class attributes(exists across ALL instances)
   > defined without "self."
   > access via ClassName.Attribute
   > any instance can access the value of this
-  > value updated across all instances
+  > value updated across all instances (if class name is used, if instance name is used then changes are exclusive to that instance)
+
+class methods
+  > methods with @classmethod decorator
+  > shared across all instances (just like class attributes)

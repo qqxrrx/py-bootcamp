@@ -19,4 +19,16 @@ class Pet:
 
 cat = Pet("C1", "cat")
 dog = Pet("D1", "dog")
-croc = Pet("CR", "croc")
+# croc = Pet("CR", "croc") # will lead to error
+
+print(Pet.allowed)
+
+# this will change the initial value so this instance will have this value and not shared across others
+cat.allowed = ['red']
+
+# if you append, then value is updated across all instances
+dog.allowed.append('whale')
+
+print(Pet.allowed)
+print(cat.allowed)
+print(dog.allowed)
