@@ -55,6 +55,27 @@ class attributes(exists across ALL instances)
   > any instance can access the value of this
   > value updated across all instances (if class name is used, if instance name is used then changes are exclusive to that instance)
 
+
 class methods
   > methods with @classmethod decorator
   > shared across all instances (just like class attributes)
+
+
+inheritance
+  > define a class that inherits functionality from a base or parent class
+  > done by passing the parent class to the child class definition
+  > avoid code duplication across two related classes
+
+
+properties
+  > using decorators:
+
+      @property
+
+      @<property_name>.setter
+      def <property_name>(self, value):
+        ...
+
+
+super()
+  > refers to the parent class for initialization
