@@ -90,3 +90,9 @@ Method Resolution Order (MRO)
   > determine MRO programatically = __mro__, mro(), help(cls)
   > first parent class inherited from will be the first function to be used
   > super() will refer to the class depending on MRO, whatever the 1st in order will be the super()
+
+
+Polymorphism
+  > object can take on many forms
+  > same class method works in similar way for different classes
+  > same operation works for different kinds of objects
