@@ -64,6 +64,7 @@ class methods
 inheritance
   > define a class that inherits functionality from a base or parent class
   > done by passing the parent class to the child class definition
+  > avoid code duplication across two related classes
 
 
 properties
@@ -74,3 +75,7 @@ properties
       @<property_name>.setter
       def <property_name>(self, value):
         ...
+
+
+super()
+  > refers to the parent class for initialization
