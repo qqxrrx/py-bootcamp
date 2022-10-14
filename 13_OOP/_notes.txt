@@ -79,3 +79,7 @@ properties
 
 super()
   > refers to the parent class for initialization
+
+
+Multiple Inheritance
+  > use two or more parent classes
