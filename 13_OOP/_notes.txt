@@ -83,3 +83,10 @@ super()
 
 Multiple Inheritance
   > use two or more parent classes
+
+
+Method Resolution Order (MRO)
+  > whenever you create a class, python will determine the hierarchy on which functions to call first
+  > determine MRO programatically = __mro__, mro(), help(cls)
+  > first parent class inherited from will be the first function to be used
+  > super() will refer to the class depending on MRO, whatever the 1st in order will be the super()
