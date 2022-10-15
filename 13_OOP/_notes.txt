@@ -96,3 +96,9 @@ Polymorphism
   > object can take on many forms
   > same class method works in similar way for different classes
   > same operation works for different kinds of objects
+
+
+Special/Magic Methods
+  > __add__()   +
+  > __len__()   len()
+  > __repr__()  print()
