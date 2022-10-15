@@ -20,3 +20,4 @@ Generator
   > functions return once, generator can yield multiple times
   > easy way of creating an iterator
   > less memory than a list
+  > ideal to use if you don't know the actual length of data
