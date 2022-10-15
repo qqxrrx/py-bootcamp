@@ -1,3 +1,4 @@
+# custom implementation of class similar to Range(...)
 class Counter:
     def __init__(self, low, high):
         self.current = low

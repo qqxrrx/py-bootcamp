@@ -1,8 +1,10 @@
 # custom for loop
 def my_for(iterable, func):
+    # iter() returns an iterator
     iterator = iter(iterable)
     while True:
         try:
+            # iterator needs to be called with next() to start looping over
             i = next(iterator)
         except StopIteration:
             print("- end of iterator -")

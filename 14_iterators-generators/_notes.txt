@@ -11,3 +11,12 @@ Iterable
 iter("string-value) = iterator
 
 next() = return one item at a time from an iterator
+
+
+
+Generator
+  > is an iterator, but not all iterators are generators
+  > instead of using 'return' uses 'yield'
+  > functions return once, generator can yield multiple times
+  > easy way of creating an iterator
+  > less memory than a list
