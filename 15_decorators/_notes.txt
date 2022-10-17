@@ -3,3 +3,8 @@ High Order Functions
 
 Closure
   > access to a higher scoped variable in a child code block
+
+Decorator
+  > functions that wrap other functions
+  > a higher order function
+  > can use @ symbol
