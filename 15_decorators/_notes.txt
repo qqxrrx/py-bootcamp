@@ -1,0 +1,5 @@
+High Order Functions
+  > functions where you pass another function as argument
+
+Closure
+  > access to a higher scoped variable in a child code block
