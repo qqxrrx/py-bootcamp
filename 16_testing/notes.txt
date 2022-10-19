@@ -1,0 +1,19 @@
+Why do testing?
+  > required if deploying to production as insurance
+  > write code to monitor code in order to reduce bugs
+  > ensure bugs are stay fixed in future code refactor
+  > be certain that new features doesn't break old ones
+  > clean code that it doesn't introduce bugs
+
+
+Test Driven Development
+  > write tests first before development
+  > once tests are written, write code to make tests pass
+  > once tests pass, a feature is considered complete
+
+
+Red -> Green -> Refactor
+  > workflow for TDD
+  > red = write a test that fails
+  > green = write minimal amount of code to make the test pass
+  > refactor = clean up the code, ensure that tests still pass
