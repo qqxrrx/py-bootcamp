@@ -17,3 +17,10 @@ Red -> Green -> Refactor
   > red = write a test that fails
   > green = write minimal amount of code to make the test pass
   > refactor = clean up the code, ensure that tests still pass
+
+
+Assertions
+  > check if expression is True and return None
+  > if expression is False, raise AssertionError
+  > old method of testing (replaced by Unit Testing techniques)
+  > when python file is run with the -O flag, assertions will not be evaluated
