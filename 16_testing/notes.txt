@@ -24,3 +24,11 @@ Assertions
   > if expression is False, raise AssertionError
   > old method of testing (replaced by Unit Testing techniques)
   > when python file is run with the -O flag, assertions will not be evaluated
+  > avoid using
+
+
+doctests
+  > can write tests for functions inside a docstring
+  > write code that looks like it's inside of a REPL
+  > too much problem in using (prone to typing errors)
+  > avoid using
