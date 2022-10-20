@@ -32,3 +32,27 @@ doctests
   > write code that looks like it's inside of a REPL
   > too much problem in using (prone to typing errors)
   > avoid using
+
+
+Unit Testing
+  > testing small pieces of code (units)
+  > candidates for unit testing: classes, modules, functions
+
+  unittest = testing framework for python
+
+    some types of assertions:
+
+      self.assertEqual(x, y)
+      self.assertNotEqual(x, y)
+      self.assertTrue(x)
+      self.assertFalse(x)
+      self.assertIsNone(x)
+      self.assertIsNotNone(x)
+      self.assertIn(x, y)
+      self.assertNotIn(x, y)
+      ...
+        https://docs.python.org/3/library/unittest.html#assert-methods
+
+    hooks:
+      > code to run before every single function:   setUp()
+      > code to run after every single function:    tearDown()
