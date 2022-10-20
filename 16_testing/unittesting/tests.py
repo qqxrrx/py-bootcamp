@@ -1,7 +1,7 @@
 import unittest
-from activities import eat, nap
+from activities import eat, nap, is_funny, laugh
 
-# https://docs.python.org/3/library/unittest.html#assert-methods
+
 # >>> py tests.py
 # (verbose) = >>> py tests.py -v
 
@@ -21,6 +21,12 @@ class ActivityTests(unittest.TestCase):
             "I'm eating pizza, because YOLO!"
         )
 
+    # testing for error
+    def test_eat_healthy_boolean(self):
+        """is_healthy must be boolean"""
+        with self.assertRaises(ValueError):
+            eat("pizza", is_healthy="wow")
+
     def test_short_nap(self):
         """short naps should be refreshing"""
         self.assertEqual(
@@ -34,6 +40,22 @@ class ActivityTests(unittest.TestCase):
             nap(3),
             "Ugh I overslept. I didn't mean to nap for 3 hours!"
         )
+
+    def test_is_funny_tim(self):
+        # this is better rather than do falsey
+        self.assertEqual(is_funny("tim"), False)
+
+        # testing for falsey value (None is falsey)
+        # self.assertFalse(is_funny("tim"), "tim should not be funny")
+
+    def test_is_funny_anyone_else(self):
+        self.assertTrue(is_funny("blue"), "blue should be funny")
+        self.assertTrue(is_funny("tammy"), "tammy should be funny")
+        self.assertTrue(is_funny("sven"), "sven should be funny")
+
+    def test_laugh(self):
+        # random within
+        self.assertIn(laugh(), ('lol', 'haha', 'tehehe'))
 
 
 if __name__ == "__main__":
