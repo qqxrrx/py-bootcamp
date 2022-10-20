@@ -52,3 +52,7 @@ Unit Testing
       self.assertNotIn(x, y)
       ...
         https://docs.python.org/3/library/unittest.html#assert-methods
+
+    hooks:
+      > code to run before every single function:   setUp()
+      > code to run after every single function:    tearDown()
