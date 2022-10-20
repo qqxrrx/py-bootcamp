@@ -32,3 +32,10 @@ doctests
   > write code that looks like it's inside of a REPL
   > too much problem in using (prone to typing errors)
   > avoid using
+
+
+Unit Testing
+  > testing small pieces of code (units)
+  > candidates for unit testing: classes, modules, functions
+
+  unittest = testing framework for python
