@@ -19,3 +19,10 @@ Cursor Movement
 
 Close a file
   > f.close()
+
+
+With Block
+  > no need to use f.close()
+
+  with open() as f:
+    ...
