@@ -1,0 +1,9 @@
+Reading Files
+  > use open() function
+      https://docs.python.org/3/library/functions.html?highlight=open#open
+
+  > pass filename as argument and returns a file object
+
+  > file.read() function
+
+  > open() works with cursors, once you read the cursor will be at the end
