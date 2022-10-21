@@ -7,3 +7,15 @@ Reading Files
   > file.read() function
 
   > open() works with cursors, once you read the cursor will be at the end
+
+    f = open()
+    ....
+    f.close()
+
+Cursor Movement
+  > if cursor is at the end and there's a file change and try to read the file again the cursor distance to travel is updated
+  > seek() = manipulate position of cursor
+
+
+Close a file
+  > f.close()
