@@ -26,3 +26,9 @@ With Block
 
   with open() as f:
     ...
+
+
+Writing Files
+  > still need to open the file first
+  > specifiy "w" flag, default is "r"
+  > .write() overwrites everything when we are using mode='w'
