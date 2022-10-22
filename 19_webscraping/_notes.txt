@@ -1,0 +1,4 @@
+Web Scraping
+  > programmatically grabbing data from a web page
+  > when the website does not provide an API
+  > analyze raw data and store processed data
