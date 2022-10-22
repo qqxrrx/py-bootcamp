@@ -3,9 +3,15 @@ Web Scraping
   > when the website does not provide an API
   > analyze raw data and store processed data
 
+
 Issues on web scraping
   > gray area (some websites can sue you, example: craigslist)
   > layout of website can always change (need to create a logfile for error monitoring)
   > consult robots.txt to check which places to not access a page (guide that webadmins need you to follow)
   > if too many requests you need to do timeouts (delay) to prevent overloading server
   > if too aggressive, your IP can be blocked (so need to use proxies)
+
+
+Beautiful Soup
+  >>>py -m pip install bs4
+  > bs4 lets us navigate through HTML with Python, you use requests module for retrieving data
