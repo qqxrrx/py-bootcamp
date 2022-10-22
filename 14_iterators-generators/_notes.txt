@@ -1,0 +1,23 @@
+Iterator
+  > object that can be iterated upon
+  > returns data, one element at a time when next() is called on it
+
+Iterable
+  > object which will return an Iterator when iter() is called on it
+
+
+"string-value" = iterable, not an iterator
+
+iter("string-value) = iterator
+
+next() = return one item at a time from an iterator
+
+
+
+Generator
+  > is an iterator, but not all iterators are generators
+  > instead of using 'return' uses 'yield'
+  > functions return once, generator can yield multiple times
+  > easy way of creating an iterator
+  > less memory than a list
+  > ideal to use if you don't know the actual length of data

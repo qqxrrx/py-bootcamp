@@ -1,0 +1,104 @@
+Object Oriented Programming
+  > representation of things in world
+  > write class to create an object
+
+  Classes
+    > blueprint of objects
+    > can contain functions or attributes
+
+  Instance
+    > objects that are constructed from a class blueprint
+
+  Encapsulation
+    > information hiding
+    > hide implementation details inside
+    > easy code reuse because related logic are bundled into one unit
+    > makes abstraction possible
+
+  Abstraction
+    > selective access/exposure of properties or functions inside a class
+    > python does not support "private", convention is using _ (underscore) before a variable
+
+
+__init__ = classes in python has this special method that is called upon object creation
+self = refers to instance of current class, does not receive arguments
+
+
+in python to instantiate a class (other language uses a "new" keyword but python does not):
+
+  obj = Class()
+
+
+Variable Naming Conventions:
+
+  __(method)__ = dunder methods, special methods that already exists at Python that we override and change it's behavior
+
+  _(variable) = treated as a private variable, can still be accessed publicly but by convention don't access it
+
+  __(variable) = accessed as _(classname)__(variable), called "name mangling"
+               = make this method/attribute particular to this class
+               = mostly used for inheritance to avoid naming conflicts
+
+
+instance methods
+
+    def function(self): ...
+
+instance attributes
+
+    self.property
+
+
+class attributes(exists across ALL instances)
+  > defined without "self."
+  > access via ClassName.Attribute
+  > any instance can access the value of this
+  > value updated across all instances (if class name is used, if instance name is used then changes are exclusive to that instance)
+
+
+class methods
+  > methods with @classmethod decorator
+  > shared across all instances (just like class attributes)
+
+
+inheritance
+  > define a class that inherits functionality from a base or parent class
+  > done by passing the parent class to the child class definition
+  > avoid code duplication across two related classes
+
+
+properties
+  > using decorators:
+
+      @property
+
+      @<property_name>.setter
+      def <property_name>(self, value):
+        ...
+
+
+super()
+  > refers to the parent class for initialization
+
+
+Multiple Inheritance
+  > use two or more parent classes
+
+
+Method Resolution Order (MRO)
+  > whenever you create a class, python will determine the hierarchy on which functions to call first
+  > determine MRO programatically = __mro__, mro(), help(cls)
+  > first parent class inherited from will be the first function to be used
+  > super() will refer to the class depending on MRO, whatever the 1st in order will be the super()
+
+
+Polymorphism
+  > object can take on many forms
+  > same class method works in similar way for different classes
+  > same operation works for different kinds of objects
+
+
+Special/Magic Methods
+  > __add__()   +
+  > __len__()   len()
+  > __repr__()  print()

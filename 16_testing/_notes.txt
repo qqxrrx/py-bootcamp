@@ -1,0 +1,58 @@
+Why do testing?
+  > required if deploying to production as insurance
+  > write code to monitor code in order to reduce bugs
+  > ensure bugs are stay fixed in future code refactor
+  > be certain that new features doesn't break old ones
+  > clean code that it doesn't introduce bugs
+
+
+Test Driven Development
+  > write tests first before development
+  > once tests are written, write code to make tests pass
+  > once tests pass, a feature is considered complete
+
+
+Red -> Green -> Refactor
+  > workflow for TDD
+  > red = write a test that fails
+  > green = write minimal amount of code to make the test pass
+  > refactor = clean up the code, ensure that tests still pass
+
+
+Assertions
+  > check if expression is True and return None
+  > if expression is False, raise AssertionError
+  > old method of testing (replaced by Unit Testing techniques)
+  > when python file is run with the -O flag, assertions will not be evaluated
+  > avoid using
+
+
+doctests
+  > can write tests for functions inside a docstring
+  > write code that looks like it's inside of a REPL
+  > too much problem in using (prone to typing errors)
+  > avoid using
+
+
+Unit Testing
+  > testing small pieces of code (units)
+  > candidates for unit testing: classes, modules, functions
+
+  unittest = testing framework for python
+
+    some types of assertions:
+
+      self.assertEqual(x, y)
+      self.assertNotEqual(x, y)
+      self.assertTrue(x)
+      self.assertFalse(x)
+      self.assertIsNone(x)
+      self.assertIsNotNone(x)
+      self.assertIn(x, y)
+      self.assertNotIn(x, y)
+      ...
+        https://docs.python.org/3/library/unittest.html#assert-methods
+
+    hooks:
+      > code to run before every single function:   setUp()
+      > code to run after every single function:    tearDown()
