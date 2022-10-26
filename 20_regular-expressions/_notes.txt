@@ -1,0 +1,25 @@
+Regular Expressions
+  > not python specific
+  > but python has it's own implementation
+  > way of describing patterns within search strings
+
+  > validating emails (correct format)
+    (^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)
+
+    ^[a-zA-Z0-9_.+-]+
+        >> starts with (1 or more letter, number, +, _, -, .) then
+    @
+        >> a single (@) sign then
+    [a-zA-Z0-9-]+
+        >> (1 or more letter, number, -) then
+    \.
+        >> a single (.)
+    [a-zA-Z0-9-.]+$
+        >> ends with (1 or more letter, number, -, .)
+
+  > potential use cases:
+      > credit card number validating
+      > phone number validating
+      > advanced find/replace in text
+      > formatting text.touput
+      > syntax highlighting
