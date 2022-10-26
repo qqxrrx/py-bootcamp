@@ -58,3 +58,9 @@ Regular Expressions
       (character classes, grouping of symbols)
       https://www.rexegg.com/regex-quickstart.html#classes
       []
+
+      (anchors and boundaries)
+      https://www.rexegg.com/regex-quickstart.html#anchors
+      ^       start of string or line
+      $       end of string or line
+      \b      word boundary
