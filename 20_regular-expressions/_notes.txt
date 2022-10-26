@@ -31,11 +31,22 @@ Regular Expressions
       https://pythex.org/
 
   > regex syntax:
+      NOTE = matches with quantifiers will try to also match other characters that are concatinated
+             best practice is to have prefix and suffix of \s to prevent concatinated match
+
       (characters)
       \d    a digit 0-9
       \w    letter, digit, or underscore
-      \s    whitespace character
+      \s    whitespace character (also matches empty character)
       \D    not a digit
       \W    not a word character
       \S    not a whitespace character
       .     any character except line break
+
+      (quantifiers, how much does the pattern need to happen)
+      +       one or more
+      {3}     exactly x times. {3} - 3 times
+      {3,5}   three or five times
+      {4,}    four or more times
+      *       zero or more times
+      ?       once or none (optional)
