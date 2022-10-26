@@ -35,6 +35,8 @@ Regular Expressions
              best practice is to have prefix and suffix of \s to prevent concatinated match
 
       (characters)
+      https://www.rexegg.com/regex-quickstart.html#chars
+      https://www.rexegg.com/regex-quickstart.html#morechars
       \d    a digit 0-9
       \w    letter, digit, or underscore
       \s    whitespace character (also matches empty character)
@@ -44,9 +46,15 @@ Regular Expressions
       .     any character except line break
 
       (quantifiers, how much does the pattern need to happen)
+      https://www.rexegg.com/regex-quickstart.html#quantifiers
+      https://www.rexegg.com/regex-quickstart.html#morequants
       +       one or more
       {3}     exactly x times. {3} - 3 times
       {3,5}   three or five times
       {4,}    four or more times
       *       zero or more times
       ?       once or none (optional)
+
+      (character classes, grouping of symbols)
+      https://www.rexegg.com/regex-quickstart.html#classes
+      []
