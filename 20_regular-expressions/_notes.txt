@@ -58,9 +58,37 @@ Regular Expressions
       (character classes, grouping of symbols)
       https://www.rexegg.com/regex-quickstart.html#classes
       []
+            example:
+                [A-Za-z]   = all characters upper and lower case
+
 
       (anchors and boundaries)
       https://www.rexegg.com/regex-quickstart.html#anchors
       ^       start of string or line
       $       end of string or line
       \b      word boundary
+
+      Logical OR (|)
+      https://www.rexegg.com/regex-quickstart.html#logic
+
+      example:
+        "a|b|c"   (will match either 'a', 'b', 'c')
+
+        ^(\(\d{3}\)|\d{3}) \d{3} \d{4}$
+
+            matches:
+                111 111 1111
+                (111) 111 1111
+
+        (https?://)([A-Za-z_-]+\.[A-Za-z_-]+)
+
+            matches:
+                https://
+                pythex.org
+                http://
+                google.com
+
+
+      () = capturing group (will group operations)
+      \( \) = use escape sequence to manage parenthesis ()
+      \. = use escape sequence to manage dot .
