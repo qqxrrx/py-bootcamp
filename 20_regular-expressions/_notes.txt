@@ -35,6 +35,8 @@ Regular Expressions
              best practice is to have prefix and suffix of \s to prevent concatinated match
 
       (characters)
+      https://www.rexegg.com/regex-quickstart.html#chars
+      https://www.rexegg.com/regex-quickstart.html#morechars
       \d    a digit 0-9
       \w    letter, digit, or underscore
       \s    whitespace character (also matches empty character)
@@ -44,9 +46,49 @@ Regular Expressions
       .     any character except line break
 
       (quantifiers, how much does the pattern need to happen)
+      https://www.rexegg.com/regex-quickstart.html#quantifiers
+      https://www.rexegg.com/regex-quickstart.html#morequants
       +       one or more
       {3}     exactly x times. {3} - 3 times
       {3,5}   three or five times
       {4,}    four or more times
       *       zero or more times
       ?       once or none (optional)
+
+      (character classes, grouping of symbols)
+      https://www.rexegg.com/regex-quickstart.html#classes
+      []
+            example:
+                [A-Za-z]   = all characters upper and lower case
+
+
+      (anchors and boundaries)
+      https://www.rexegg.com/regex-quickstart.html#anchors
+      ^       start of string or line
+      $       end of string or line
+      \b      word boundary
+
+      Logical OR (|)
+      https://www.rexegg.com/regex-quickstart.html#logic
+
+      example:
+        "a|b|c"   (will match either 'a', 'b', 'c')
+
+        ^(\(\d{3}\)|\d{3}) \d{3} \d{4}$
+
+            matches:
+                111 111 1111
+                (111) 111 1111
+
+        (https?://)([A-Za-z_-]+\.[A-Za-z_-]+)
+
+            matches:
+                https://
+                pythex.org
+                http://
+                google.com
+
+
+      () = capturing group (will group operations)
+      \( \) = use escape sequence to manage parenthesis ()
+      \. = use escape sequence to manage dot .
