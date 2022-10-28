@@ -15,3 +15,11 @@ Basic sqlite syntax
 
   insert to table:
       INSERT INTO <table_name> (<field1>,<field2>) VALUES (<val1>,<val2>);
+
+
+  selecting data:
+      SELECT * FROM <table_name>
+      SELECT <field1>,<field2> FROM <table_name>
+      SELECT <field1>,<field2> FROM <table_name> WHERE <field1> IS "<term_case_sensitive>"
+
+      https://sqlite.org/lang_select.html
