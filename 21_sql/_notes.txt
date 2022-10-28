@@ -1,0 +1,25 @@
+>>>sqlite3
+
+Basic sqlite syntax
+
+  creating tables:
+      CREATE TABLE <table_name> (
+        <field_name> <data_type>
+      );
+
+
+  save created tables to file:
+    >>>.open (filename).db
+    >>>queries...
+
+
+  insert to table:
+      INSERT INTO <table_name> (<field1>,<field2>) VALUES (<val1>,<val2>);
+
+
+  selecting data:
+      SELECT * FROM <table_name>
+      SELECT <field1>,<field2> FROM <table_name>
+      SELECT <field1>,<field2> FROM <table_name> WHERE <field1> IS "<term_case_sensitive>"
+
+      https://sqlite.org/lang_select.html
