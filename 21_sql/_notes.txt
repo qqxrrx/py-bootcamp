@@ -3,11 +3,15 @@
 Basic sqlite syntax
 
   creating tables:
-
       CREATE TABLE <table_name> (
         <field_name> <data_type>
       );
 
+
   save created tables to file:
     >>>.open (filename).db
     >>>queries...
+
+
+  insert to table:
+      INSERT INTO <table_name> (<field1>,<field2>) VALUES (<val1>,<val2>);
