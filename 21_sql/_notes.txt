@@ -1,0 +1,13 @@
+>>>sqlite3
+
+Basic sqlite syntax
+
+  creating tables:
+
+      CREATE TABLE <table_name> (
+        <field_name> <data_type>
+      );
+
+  save created tables to file:
+    >>>.open (filename).db
+    >>>queries...
